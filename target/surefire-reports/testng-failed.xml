@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Academy.listeners"/>
+    <listener class-name="Academy.ExtentReportsListeners"/>
+  </listeners>
+  <test parallel="tests" name="Validating User Navigation(failed)">
+    <classes>
+      <class name="cucumberOptions.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumberOptions.TestRunner -->
+    </classes>
+  </test> <!-- Validating User Navigation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
